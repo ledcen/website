@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<style>
+
+
+.nav {
+position: relative;
+margin: 20px 0;
+}
+.nav ul {
+margin: 0;
+padding: 0;
+}
+.nav li {
+margin: 0 5px 10px 0;
+padding: 0;
+list-style: none;
+display: inline-block;
+}
+.nav a {
+padding: 3px 12px;
+text-decoration: none;
+color: #999;
+line-height: 100%;
+}
+.nav a:hover {
+color: #d0d0d0;
+}
+.nav .current a {
+background: #999;
+color: #fff;
+border-radius: 5px;
+}
+
+
+/* right nav */
+.nav.right ul {
+text-align: right;
+}
+
+/* center nav */
+.nav.center ul {
+text-align: center;
+} 
+
+</style>
+<header>
+<title>L&S - Your LED Suppier in China.</title>
+</header>
+
+<nav>
+<ul>
+	<li class="current"><a href="#">Why Ledcen?</a></li>
+	<li><a href="product.html">Product</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+</ul>
+</nav>

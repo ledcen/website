@@ -1,0 +1,74 @@
+.padding15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.marginZero {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1, h2 {
+    color: #000;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+}
+h2, .h2 {
+    font-size: 30px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+* {
+    font-family: "Open Sans";
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 14px;
+    font-family: "Open Sans";
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
+html {
+    font-size: 10px;
+}
+html {
+    font-family: sans-serif;
+}
+#aboutUs p {
+    color: #000;
+}
+p {
+    font-size: 1em;
+}
+p {
+    margin: 0px 0px 10px;
+}
+* {
+    font-family: "Open Sans";
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 14px;
+    font-family: "Open Sans";
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
