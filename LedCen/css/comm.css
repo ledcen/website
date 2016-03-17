@@ -1,100 +1,88 @@
 * { margin: 0; padding: 0; }
-div#logo{
-text-align:center;
-border:2px solid #a1a1a1;
-padding:10px 10px 10px 10px; 
-background:#dddddd;
-font-weight:200;
-border:2px solid;
-border-radius:30px;
--moz-border-radius:30px; /* Old Firefox */
-width: 300px;
-text-shadow: 5px 5px 5px #FF0000;
-box-shadow: 5px 5px 5px #888888;
+#topnav{
+	border: 0px solid #ff0000;
+	width: 1000px;
+	height: 15px;
+	margin: auto;
 }
-
-.nav { 
-    position: relative; 
-    margin: 20px 0; 
-} 
-.nav ul { 
-    margin: 0; 
-    padding: 0; 
-} 
-.nav li { 
-    margin: 0 5px 10px 0; 
-    padding: 0; 
-    list-style: none; 
-    display: inline-block; 
-} 
-.nav a { 
+#topnavRight{
+	border: 0px solid #ff0000;
+	width: 200px;
+	float: right;
+}
+#topnavRight p{
+	font-size: 12px;
+	text-align: right;
+}
+#nav{
+	border: 0px solid #ff0000;
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+}
+#navlogo{
+	border: 0px solid #ff0000;
+	width: 120px;
+	height: 48px;
+	float: left;
+}
+#navtext{
+	border: 0px solid #ff0000;
+	width: 760px;
+	height: 48px;
+	float: left;
+	margin-left: 10px;
+}
+.navlay1{
+	border: 0px solid #ff0000;
+	position: relative;
+	margin: 20px 0; 
+}
+.navlay1 ul{
+	border: 0px solid #ff0000;
+}
+.navlay1 li{
+	border: 0px solid #ff0000;
+	margin: 0 5px 10px 0; 
+	width: 130px;
+	list-style: none;
+	display: inline-block; 
+	
+}
+.navlay1 a { 
     padding: 3px 12px; 
     text-decoration: none; 
     color: #999; 
     line-height: 100%; 
 } 
-.nav a:hover { 
+.navlay1 a:hover { 
     color: #d0d0d0; 
 } 
-.nav .current a { 
+.navlay1 .current a { 
     background: #999; 
     color: #fff; 
     border-radius: 5px; 
 } 
-@media screen and (max-width: 600px) {
-.nav {
-position: relative;
-min-height: 40px;
+body{
+	border: 1px solid #ff0000;
+	width: 1000px;
+	margin: auto;
 }
-.nav ul {
-width: 180px;
-padding: 5px 0;
-position: absolute;
-top: 0;
-left: 0;
-border: solid 1px #aaa;
-background: #fff url(images/menu.png) no-repeat 10px 11px;
-border-radius: 5px;
-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+#main{
+	border: 1px solid #ff0000;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
 }
-.nav li {
-display: none; /* hide all items */
-margin: 0;
+#loopshow{
+	border: 1px solid #ff0000;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
 }
-.nav .current {
-display: block; /* show only currentitem */
-}
-.nav a {
-display: block;
-padding: 5px 5px 5px 32px;
-text-align: left;
-}
-.nav .current a {
-background: none;
-color: #666;
-}
-
-/* on nav hover */
-.nav ul:hover {
-background-image: none;
-}
-.nav ul:hover li {
-display: block;
-margin: 0 0 5px;
-}
-.nav ul:hover .current {
-background: url(images/check.png) no-repeat 10px 7px;
-}
-
-/* right nav */
-.nav.right ul {
-left: auto;
-right: 0;
-}
-
-/* center nav */
-.nav.center ul {
-left: 50%;
-margin-left: -90px;
-}
+#loopshow img{
+	border: 1px solid #ff0000;
+	width: 550px;
+	height: 500px;
+	margin: auto;
 }

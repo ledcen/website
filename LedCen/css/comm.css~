@@ -1,0 +1,88 @@
+* { margin: 0; padding: 0; }
+#topnav{
+	border: 0px solid #ff0000;
+	width: 1000px;
+	height: 15px;
+	margin: auto;
+}
+#topnavRight{
+	border: 0px solid #ff0000;
+	width: 200px;
+	float: right;
+}
+#topnavRight p{
+	font-size: 12px;
+	text-align: right;
+}
+#nav{
+	border: 0px solid #ff0000;
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+}
+#navlogo{
+	border: 0px solid #ff0000;
+	width: 120px;
+	height: 48px;
+	float: left;
+}
+#navtext{
+	border: 0px solid #ff0000;
+	width: 760px;
+	height: 48px;
+	float: left;
+	margin-left: 10px;
+}
+.navlay1{
+	border: 0px solid #ff0000;
+	position: relative;
+	margin: 20px 0; 
+}
+.navlay1 ul{
+	border: 0px solid #ff0000;
+}
+.navlay1 li{
+	border: 0px solid #ff0000;
+	margin: 0 5px 10px 0; 
+	width: 130px;
+	list-style: none;
+	display: inline-block; 
+	
+}
+.navlay1 a { 
+    padding: 3px 12px; 
+    text-decoration: none; 
+    color: #999; 
+    line-height: 100%; 
+} 
+.navlay1 a:hover { 
+    color: #d0d0d0; 
+} 
+.navlay1 .current a { 
+    background: #999; 
+    color: #fff; 
+    border-radius: 5px; 
+} 
+body{
+	border: 1px solid #ff0000;
+	width: 1000px;
+	margin: auto;
+}
+#main{
+	border: 1px solid #ff0000;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+}
+#loopshow{
+	border: 1px solid #ff0000;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+}
+#loopshow img{
+	border: 1px solid #ff0000;
+	width: 550px;
+	height: 500px;
+	margin: auto;
+}
