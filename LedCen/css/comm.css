@@ -64,25 +64,25 @@
     border-radius: 5px; 
 } 
 body{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	margin: auto;
 }
 #main{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
 	margin: auto;
 }
 #loopshow{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
 	margin: auto;
 }
 #loopshow img{
-	border: 1px solid #ff0000;
-	width: 550px;
+	border: 0px solid #ff0000;
+	width: 1000px;
 	height: 500px;
 	margin: auto;
 }
