@@ -9,11 +9,11 @@
 </div>
 
 <nav id="nav">
-<div id="navlogo"><img src="images/logosmall.png" alt="L&S www.ledcen.com"></div>
+<div id="navlogo"><img src="images/logoledcen.png" alt="LEDCEN"></div>
 <div id="navtext">
 <ul class="navlay1">
 	<li class="current"><a href="#">Why Ledcen?</a></li>
-	<li><a href="product.html">Products</a>
+	<li><a href="#">Products</a>
 	<!-- <ul class="productdetail">
 	<li>Clean room lighting series</li>
 <li>Clean room LED panel light</li>
@@ -34,7 +34,7 @@
  -->
 </li>
 	<li><a href="#">Alibaba Shop</a></li>
-	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="#">About Us</a></li>
 	<li><a href="#">Join Us</a></li>
 </ul>
 </div>
@@ -42,12 +42,27 @@
 </nav>
 <body>
 <div id="main">
-<div id="loopshow"><img src="images/products/looping.png" alt="products"></div>
+<div id="loopshow"><img src="images/products/looping1.png" alt="products"></div>
 
 </div>
 </body>
-<footer>
-<img src="images/footer.png" width="276" height="60" alt="">
+<footer id="footer">
+<div id="footerLeft">
+<img src="images/footer.png" width="276" height="60" alt="" />
+</div>
+<div id="footerRight">
+
+<ul>	
+	
+	<li>Skype: jiang.florence</li>
+	<li>Mob.: +86-13480990151(What'App & Wechat)</li>
+	<li>Tel: +86-755-27846432</li>
+	<li>QQ: 1017343417</li>
+	<li>Factory Add: 6th Floor, Fengtian New Technology Industry Park, No.308, 
+	Xuegang North Road, Longhua District , Shenzhen, Guangdong  Province, China.</li>
+</ul>
+
+</div>
 <!-- 
 <ul>
 <li><a href="blog.html">blog</a></li>

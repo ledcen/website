@@ -22,7 +22,7 @@
 }
 #navlogo{
 	border: 0px solid #ff0000;
-	width: 120px;
+	width: 98px;
 	height: 48px;
 	float: left;
 }
@@ -64,25 +64,64 @@
     border-radius: 5px; 
 } 
 body{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	margin: auto;
 }
 #main{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
 	margin: auto;
 }
 #loopshow{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
 	margin: auto;
 }
 #loopshow img{
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
 	margin: auto;
+}
+#footer{
+		border: 1px solid #ff0000;
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	float:left;
+
+}
+#footerLeft{
+	border: 1px solid #ff0000;
+	width: 280px;
+	height: 60px;
+	
+	float: left;
+}
+#footerRight{
+		border: 1px solid #ff0000;
+	width: 700px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+	margin-left: 2opx
+}
+#footerRight ul{
+		border: 1px solid #ff0000;
+	width: 700px;
+	height: 20px;
+	float: right;
+	list-style: none;
+	line-height: 20px;
+	font-size: 12px;
+	
+}
+#footerRight li{
+		border: 1px solid #ff0000;
+	width: 700px;
+	float: right;
+color: #838383
 }
