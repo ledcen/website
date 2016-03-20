@@ -25,13 +25,16 @@
 	width: 98px;
 	height: 48px;
 	float: left;
+	margin-left:20px;
+	
 }
 #navtext{
 	border: 0px solid #ff0000;
 	width: 760px;
 	height: 48px;
 	float: left;
-	margin-left: 10px;
+	margin-left: 40px;
+	font-size: 18px;
 }
 .navlay1{
 	border: 0px solid #ff0000;
@@ -52,15 +55,17 @@
 .navlay1 a { 
     padding: 3px 12px; 
     text-decoration: none; 
-    color: #999; 
+    color: #000; 
     line-height: 100%; 
+    
+    
 } 
 .navlay1 a:hover { 
-    color: #d0d0d0; 
+     border-bottom: 4px solid #ffb25b;
+    
 } 
 .navlay1 .current a { 
-    background: #999; 
-    color: #fff; 
+    color: #000; 
     border-radius: 5px; 
 } 
 body{
@@ -72,6 +77,8 @@ body{
 	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
+	margin-top:10px;
+	
 	margin: auto;
 }
 #loopshow{
