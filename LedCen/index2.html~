@@ -44,11 +44,11 @@ text-align: center;
 
 </style>
 <header>
-<title>L&S - Your LED Suppier in China.</title>
+<title>L&S - Your LED Supplier in China.</title>
 </header>
 
 <nav>
-<ul>
+<ul class="nav">
 	<li class="current"><a href="#">Why Ledcen?</a></li>
 	<li><a href="product.html">Product</a></li>
 	<li><a href="aboutus.html">About Us</a></li>
