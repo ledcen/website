@@ -4,6 +4,7 @@
 	width: 1000px;
 	height: 15px;
 	margin: auto;
+	
 }
 #topnavRight{
 	border: 0px solid #ff0000;
@@ -17,8 +18,9 @@
 #nav{
 	border: 0px solid #ff0000;
 	width: 1000px;
-	height: 50px;
+	height: 60px;
 	margin: auto;
+	background-color: #ffffff;
 }
 #navlogo{
 	border: 0px solid #ff0000;
@@ -50,35 +52,31 @@
 	width: 130px;
 	list-style: none;
 	display: inline-block; 
-	
 }
 .navlay1 a { 
-    padding: 3px 12px; 
-    text-decoration: none; 
-    color: #000; 
-    line-height: 100%; 
-    
-    
+  padding: 3px 12px; 
+  text-decoration: none; 
+  color: #000; 
+  line-height: 100%; 
 } 
 .navlay1 a:hover { 
-     border-bottom: 4px solid #ffb25b;
-    
+  border-bottom: 4px solid #ffb25b;
 } 
 .navlay1 .current a { 
-    color: #000; 
-    border-radius: 5px; 
+  color: #000; 
+  border-radius: 5px; 
 } 
 body{
 	border: 0px solid #ff0000;
 	width: 1000px;
 	margin: auto;
+	
 }
 #main{
 	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 500px;
 	margin-top:50px;
-	
 	margin: auto;
 }
 #loopshow{
@@ -94,44 +92,40 @@ body{
 	margin: auto;
 }
 #footer{
-		border: 0px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 1000px;
 	height: 200px;
 	margin: auto;
 	float:left;
-
 }
 #footerLeft{
 	border: 0px solid #ff0000;
 	width: 280px;
 	height: 70px;
-	
 	float: left;
 }
 #footerRight{
-		border: 0px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 690px;
 	height: 70px;
 	float: right;
 	margin-top: 3px;
 	margin-left: 20px;
-	
 }
 #footerRight ul{
-		border: 0px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 700px;
 	height: 20px;
 	float: right;
 	list-style: none;
 	line-height: 20px;
 	font-size: 12px;
-	
 }
 #footerRight li{
-		border: 0px solid #ff0000;
+	border: 0px solid #ff0000;
 	width: 700px;
 	float: right;
-color: #838383
+	color: #838383;
 }
 .companyname{
 	border: 0px solid #ff0000;
@@ -143,4 +137,17 @@ color: #838383
 	margin: auto;
 	text-align: center;
 	margin-top: 10px;
+	font-size: 10px;
+}
+#aboutus_main{
+	border:0px solid #ff0000;
+	background-color: #e6e6e6;
+	padding:10px;
+	font-family: Open sans;	
+}
+h2{
+	padding-bottom: 15px;
+}
+h3{
+	padding-bottom: 10px;	
 }

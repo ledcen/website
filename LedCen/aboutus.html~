@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<link href="css/comm.css" rel="stylesheet" type="text/css" />
-<link href="css/aboutus.css" rel="stylesheet" type="text/css" />
 <header>
-<title>L&S - Your LED Suppier in China.</title>
+<title>L&S - Your LED Supplier in China.</title>
+<link rel="shortcut icon" href="images/ledcen.ico">
+<link href="css/comm.css" rel="stylesheet" type="text/css" />
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 </header>
-<nav>
+<div id="topnav">
+	<div id="topnavRight"><p>+86 755 27846432</p></div>
+</div>
 
-<ul  class="nav">
-<li><div id=logo>L&S</div></li>
+<nav id="nav">
+<div id="navlogo"><a href="index.html"><img src="images/logoledcen.png" alt="LEDCEN"></a>
+</div>
+<div id="navtext">
+<ul class="navlay1">
 	<li><a href="index.html">Why Ledcen?</a></li>
-		<li><a href="product.html">Product</a></li>
-	<li><a href="#">alibaba shop</a></li>
-	<li  class="current">About Us</li>
+	<li><a href="#">Products</a></li>
+	<li><a href="#">Alibaba Shop</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="#">Join Us</a></li>
 </ul>
+</div>
+
 </nav>
+
 <body>
-<article><div id="aboutUs">
-        	
 
-
+<div id="aboutUs">
 <h2>About L&S Lighting</h2>
 <p>Since 2015, L&S Lighting has been a leading manufacturer of LED Clean room lighting and 
 full clean room solution services, commercial LED lighting. Specializing in LED clean room 
@@ -26,32 +34,34 @@ panels, tube lights, we possess international expertise and hometown values that
 us to make a noticeable impact in our industry, providing the highest level of satisfaction 
 to our clients while utilizing the latest in LED technology to retrofit  and upgrade 
 businesses of all types.
-</p><br>
+</p>
+<br>
 <br>
 
 Address: 6th Floor, Fengtian New technology industry park, No.308,xuegang North road, Longhua district, Shenzhen.
 <br><br>
+
 <h3>Li & Sen Co.,Limited</h3>
 Contact: Florence Jiang<br>
 Skype: jiang.florence<br>
 Email: info@ledcen.com, Florence@ledcen.com<br>
 Tel: 0086-755-27846432<br>
 Mob: 0086 13480990151<br>
-<br><br></div>
-
-</article>
+<br><br>
+</div>
 
 </body>
-<footer>
-<img src="images/footer.png" width="276" height="60" alt="">
-<!-- 
-<ul>
-<li><a href="blog.html">blog</a></li>
-<li>facebook</li>
-<li>twitter</li>
-<li>linkedin</li>
-<li>g+</li>
-<li>youtube</li>
-<li>fa</li>
-</ul> -->
+<footer id="footer">
+<div id="footerLeft">
+<img src="images/footer.png" width="276" height="60" alt="" />
+</div>
+<div id="footerRight">
+<p class="companyname">Shenzhen Li & Sen Co.,Limited</p>
+<p>Factory Add: 6th Floor, Fengtian New Technology Industry Park, No.308, 
+	Xuegang North Road, Longhua District , Shenzhen, Guangdong  Province, China.</p>
+</div>
+<div id="copyright">
+<p>Copyright &#169; 2016 Shenzhen Li & Sen Co.,Limited. All Rights Reserved.</p>
+<p></p>
+</div>
 </footer>
