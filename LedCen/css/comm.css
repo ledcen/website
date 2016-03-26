@@ -4,6 +4,8 @@
 	width: 1000px;
 	height: 15px;
 	margin: auto;
+
+	
 	
 }
 #topnavRight{
@@ -18,9 +20,11 @@
 #nav{
 	border: 0px solid #ff0000;
 	width: 1000px;
-	height: 60px;
+	height: 75px;
 	margin: auto;
 	background-color: #ffffff;
+	position: fixed;
+	top:0px;
 }
 #navlogo{
 	border: 0px solid #ff0000;
@@ -70,7 +74,7 @@ body{
 	border: 0px solid #ff0000;
 	width: 1000px;
 	margin: auto;
-	
+	padding-top:75px;
 }
 #main{
 	border: 0px solid #ff0000;

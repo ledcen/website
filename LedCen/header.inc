@@ -1,9 +1,9 @@
-
+<nav id="nav">
 <div id="topnav">
 	<div id="topnavRight"><p>+86 755 27846432</p></div>
 </div>
 
-<nav id="nav">
+
 <div id="navlogo"><img src="images/logoledcen.png" alt="LEDCEN"></div>
 <div id="navtext">
 <ul class="navlay1">
