@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<header>
-<title>L&S - Your LED Supplier in China.</title>
-<link rel="shortcut icon" href="images/ledcen.ico">
-<link href="css/comm.css" rel="stylesheet" type="text/css" />
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-</header>
+<html>
+<head>
+	<meta content="charset=utf-8">
+	<title>L&S - Your LED Supplier in China.</title>
+	<link rel="shortcut icon" href="images/ledcen.ico">
+	<link href="css/comm.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	
+	<script src="js/jquery-1.12.2.min.js"></script>
+</head>
 <nav id="nav">
 <div id="topnav">
 	<div id="topnavRight"><p>+86 755 27846432</p></div>
@@ -25,10 +29,24 @@
 </nav>
 
 <body>
-	<div id="main">
+	<!-- <div id="main">
 		<div id="loopshow">
 			<img src="images/products/looping1.png" alt="products">
 		</div>	
+	</div> -->
+	
+	<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="images/products/looping1.png" />
+    </li>
+    <li>
+      <img src="images/products/looping2.png" />
+    </li>
+    <li>
+      <img src="images/products/looping3.png" />
+    </li>
+    </ul>
 	</div>
 </body>
 
@@ -46,3 +64,20 @@
 		<p></p>
 	</div>
 </footer>
+<script src="js/jquery.flexslider-min.js"></script>
+ <script type="text/javascript">
+     $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        pausePlay: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</html>
