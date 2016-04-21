@@ -9,10 +9,10 @@
 	
 	<script src="js/jquery-1.12.2.min.js"></script>
 </head>
-<nav id="nav">
-<div id="topnav">
+<nav id="nav1">
+<div id="nav">
 	<div id="topnavRight"><p>+86 755 27846432</p></div>
-</div>
+
 
 
 	<div id="navlogo"><a href="index.html"><img src="images/logoledcen.png" alt="LEDCEN"></a>
@@ -25,6 +25,7 @@
 			<li><a href="aboutus.html">About Us</a></li>
 			<li><a href="#">Join Us</a></li>
 		</ul>
+	</div>
 	</div>
 </nav>
 
@@ -69,14 +70,7 @@
      $(window).load(function(){
       $('.flexslider').flexslider({
         animation: "slide",
-        animationLoop: false,
-        itemWidth: 210,
-        itemMargin: 5,
-        pausePlay: true,
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
+              });
     });
   </script>
 
