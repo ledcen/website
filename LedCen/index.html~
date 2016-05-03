@@ -3,7 +3,8 @@
 <head>
 	<meta content="charset=utf-8">
 	<title>L&S - Your LED Supplier in China.</title>
-	<link rel="shortcut icon" href="images/ledcen.ico">
+	<!-- <link rel="icon" type="image/x-icon" href="images/ledcen.ico"> -->
+	<link rel="shortcut icon" href="images/ledcen.ico" type="image/x-icon">
 	<link href="css/comm.css" rel="stylesheet" type="text/css" />
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	
@@ -20,7 +21,7 @@
 	<div id="navtext">
 		<ul class="navlay1">
 			<li><a href="index.html">Why Ledcen?</a></li>
-			<li><a href="#">Products</a></li>
+			<li><a href="product.html">Products</a></li>
 			<li><a href="#">Alibaba Shop</a></li>
 			<li><a href="aboutus.html">About Us</a></li>
 			<li><a href="#">Join Us</a></li>
