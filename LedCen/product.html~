@@ -32,9 +32,9 @@
 <div>
 <table>
 <tr>
-<td>LSCPN3030-15WA</td>
-<td>LSCPN3060-25WA</td>
-<td>LSCPN3012-40WA</td>
+<td class="prod_title">LSCPN3030-15WA</td>
+<td class="prod_title">LSCPN3060-25WA</td>
+<td class="prod_title">LSCPN3012-40WA</td>
 </tr>
 <tr>
 <td><img src="images/products/10.png" width="250" height="250" alt=""></td>
@@ -42,8 +42,8 @@
 <td><img src="images/products/12.png" width="250" height="250" alt=""></td>
 </tr>
 <tr>
-<td>LSCPN6060-35WA</td>
-<td>LSCPN6012-80WA</td>
+<td class="prod_title">LSCPN6060-35WA</td>
+<td class="prod_title">LSCPN6012-80WA</td>
 <td></td>
 </tr>
 <tr>
@@ -56,9 +56,9 @@
 
 <table>
 <tr>
-<td>LSCPN2010-40WA</td>
-<td>LSCPN3030-15WS</td>
-<td>LSCPN3060-25WS</td>
+<td class="prod_title">LSCPN2010-40WA</td>
+<td class="prod_title">LSCPN3030-15WS</td>
+<td class="prod_title">LSCPN3060-25WS</td>
 </tr>
 <tr>
 <td><img src="images/products/20.png" width="250" height="250" alt=""></td>
@@ -66,9 +66,9 @@
 <td><img src="images/products/22.png" width="250" height="250" alt=""></td>
 </tr>
 <tr>
-<td>LSCPN3012-40WS</td>
-<td>LSCPN3012-60WS</td>
-<td>LSCPN6060-35WS</td>
+<td class="prod_title">LSCPN3012-40WS</td>
+<td class="prod_title">LSCPN3012-60WS</td>
+<td class="prod_title">LSCPN6060-35WS</td>
 </tr>
 <tr>
 <td><img src="images/products/23.png" width="250" height="250" alt=""></td>
